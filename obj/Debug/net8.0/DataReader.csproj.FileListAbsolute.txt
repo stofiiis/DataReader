@@ -1,0 +1,15 @@
+C:\Users\atlan\source\repos\DataReader\bin\Debug\net8.0\DataReader.exe
+C:\Users\atlan\source\repos\DataReader\bin\Debug\net8.0\DataReader.deps.json
+C:\Users\atlan\source\repos\DataReader\bin\Debug\net8.0\DataReader.runtimeconfig.json
+C:\Users\atlan\source\repos\DataReader\bin\Debug\net8.0\DataReader.dll
+C:\Users\atlan\source\repos\DataReader\bin\Debug\net8.0\DataReader.pdb
+C:\Users\atlan\source\repos\DataReader\obj\Debug\net8.0\DataReader.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\atlan\source\repos\DataReader\obj\Debug\net8.0\DataReader.AssemblyInfoInputs.cache
+C:\Users\atlan\source\repos\DataReader\obj\Debug\net8.0\DataReader.AssemblyInfo.cs
+C:\Users\atlan\source\repos\DataReader\obj\Debug\net8.0\DataReader.csproj.CoreCompileInputs.cache
+C:\Users\atlan\source\repos\DataReader\obj\Debug\net8.0\DataReader.dll
+C:\Users\atlan\source\repos\DataReader\obj\Debug\net8.0\refint\DataReader.dll
+C:\Users\atlan\source\repos\DataReader\obj\Debug\net8.0\DataReader.pdb
+C:\Users\atlan\source\repos\DataReader\obj\Debug\net8.0\DataReader.genruntimeconfig.cache
+C:\Users\atlan\source\repos\DataReader\obj\Debug\net8.0\ref\DataReader.dll
+C:\Users\atlan\source\repos\DataReader\bin\Debug\net8.0\stats.txt

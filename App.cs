@@ -6,30 +6,27 @@ using System.Threading.Tasks;
 
 namespace DataReader
 {
+    internal class DataRecord
+    {
+        public string Id { get; set; }
+        public string jmeno { get; set; }
+        public string prijmeni { get; set; }
+        public int vek { get; set; }
+
+        public static DataRecord FromCsv(string csvLine)
+        {
+            string[] data = csvLine.Split(';');
+            return new DataRecord
+            {
+                Id = data[0],
+                jmeno = data[1],
+                prijmeni = data[2],
+                vek = int.Parse(data[3])
+            };
+        }
+    }
     internal class App
     {
-        public void Data()
-        {
-            string fileName = "stats.txt";
-            string filePath = Path.Combine(AppContext.BaseDirectory, fileName);
-            try
-            {
-                foreach (string line in File.ReadLines(filePath))
-                {
-                    string[] data = line.Split(';');
-                    foreach (string item in data)
-                    {
-                        Console.WriteLine(item.Trim());
-                    }
-                    Console.WriteLine("----------------");
-                }
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine($"Vyskytla se chyba: {ex.Message}");
-            }
-        }
-
         public void FindId()
         {
             Console.Write("Zadejte ID: ");
@@ -41,10 +38,10 @@ namespace DataReader
             {
                 foreach (string line in File.ReadLines(filePath))
                 {
-                    string[] data = line.Split(';');
-                    if (data.Length > 0 && data[0] == id)
+                    DataRecord record = DataRecord.FromCsv(line);
+                    if (record.Id == id)
                     {
-                        Console.WriteLine($"Nalezený řádek: {line}");
+                        Console.WriteLine($"ID nalezeno: {record.jmeno} {record.prijmeni}");
                         return;
                     }
                 }

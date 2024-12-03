@@ -13,3 +13,4 @@ C:\Users\atlan\source\repos\DataReader\obj\Debug\net8.0\DataReader.pdb
 C:\Users\atlan\source\repos\DataReader\obj\Debug\net8.0\DataReader.genruntimeconfig.cache
 C:\Users\atlan\source\repos\DataReader\obj\Debug\net8.0\ref\DataReader.dll
 C:\Users\atlan\source\repos\DataReader\bin\Debug\net8.0\stats.txt
+C:\Users\atlan\source\repos\DataReader\obj\Debug\net8.0\DataReader.sourcelink.json

@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{DFB50416-C154-4D68-A983-9D032A789AE5}|DataReader.csproj|solutionrelative:app.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DFB50416-C154-4D68-A983-9D032A789AE5}|DataReader.csproj|c:\\users\\atlan\\source\\repos\\datareader\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DFB50416-C154-4D68-A983-9D032A789AE5}|DataReader.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{DFB50416-C154-4D68-A983-9D032A789AE5}|DataReader.csproj|c:\\users\\atlan\\source\\repos\\datareader\\stats.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{DFB50416-C154-4D68-A983-9D032A789AE5}|DataReader.csproj|solutionrelative:stats.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFB50416-C154-4D68-A983-9D032A789AE5}|DataReader.csproj|c:\\users\\atlan\\source\\repos\\datareader\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFB50416-C154-4D68-A983-9D032A789AE5}|DataReader.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,19 +22,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "App.cs",
-              "DocumentMoniker": "C:\\Users\\atlan\\source\\repos\\DataReader\\App.cs",
-              "RelativeDocumentMoniker": "App.cs",
-              "ToolTip": "C:\\Users\\atlan\\source\\repos\\DataReader\\App.cs",
-              "RelativeToolTip": "App.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAQwDkAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T10:39:05.625Z",
+              "DocumentIndex": 1,
+              "Title": "stats.txt",
+              "DocumentMoniker": "C:\\Users\\atlan\\source\\repos\\DataReader\\stats.txt",
+              "RelativeDocumentMoniker": "stats.txt",
+              "ToolTip": "C:\\Users\\atlan\\source\\repos\\DataReader\\stats.txt",
+              "RelativeToolTip": "stats.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-11-29T10:39:22.483Z",
               "EditorCaption": ""
             },
             {
@@ -43,26 +43,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "stats.txt",
-              "DocumentMoniker": "C:\\Users\\atlan\\source\\repos\\DataReader\\stats.txt",
-              "RelativeDocumentMoniker": "stats.txt",
-              "ToolTip": "C:\\Users\\atlan\\source\\repos\\DataReader\\stats.txt",
-              "RelativeToolTip": "stats.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2024-11-29T10:39:22.483Z",
+              "DocumentIndex": 0,
+              "Title": "App.cs",
+              "DocumentMoniker": "C:\\Users\\atlan\\source\\repos\\DataReader\\App.cs",
+              "RelativeDocumentMoniker": "App.cs",
+              "ToolTip": "C:\\Users\\atlan\\source\\repos\\DataReader\\App.cs",
+              "RelativeToolTip": "App.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAowCsAAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T10:39:05.625Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\atlan\\source\\repos\\DataReader\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\atlan\\source\\repos\\DataReader\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-29T10:38:28.831Z",
               "EditorCaption": ""

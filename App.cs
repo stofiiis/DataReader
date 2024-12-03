@@ -42,7 +42,17 @@ namespace DataReader
                     if (record.Id == id)
                     {
                         Console.WriteLine($"ID nalezeno: {record.jmeno} {record.prijmeni}");
-                        return;
+                        Console.WriteLine("Chceš více informací? y/n");
+                        string info = Console.ReadLine()!;
+                        if (info == "y" || info == "Y")
+                        {
+                            Console.WriteLine($"Věk: {record.vek}");
+                        }
+                        else
+                        {
+                            Console.WriteLine("Program ukončen");
+                            return;
+                        }
                     }
                 }
                 Console.WriteLine("ID nebylo nalezeno.");

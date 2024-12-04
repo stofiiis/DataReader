@@ -12,6 +12,7 @@ namespace DataReader
         public string jmeno { get; set; }
         public string prijmeni { get; set; }
         public int vek { get; set; }
+        public string bydliste { get; set; }
 
         public static DataRecord FromCsv(string csvLine)
         {
@@ -21,7 +22,8 @@ namespace DataReader
                 Id = data[0],
                 jmeno = data[1],
                 prijmeni = data[2],
-                vek = int.Parse(data[3])
+                vek = int.Parse(data[3]),
+                bydliste = data[4],
             };
         }
     }
@@ -29,37 +31,48 @@ namespace DataReader
     {
         public void FindId()
         {
-            Console.Write("Zadejte ID: ");
-            string id = Console.ReadLine()!;
-
-            string fileName = "stats.txt";
-            string filePath = Path.Combine(AppContext.BaseDirectory, fileName);
-            try
+            while (true)
             {
-                foreach (string line in File.ReadLines(filePath))
+                Console.Write("Zadejte ID: ");
+                string id = Console.ReadLine()!;
+
+                string fileName = "stats.txt";
+                string filePath = Path.Combine(AppContext.BaseDirectory, fileName);
+                bool idFound = false;
+
+                try
                 {
-                    DataRecord record = DataRecord.FromCsv(line);
-                    if (record.Id == id)
+                    foreach (string line in File.ReadLines(filePath))
                     {
-                        Console.WriteLine($"ID nalezeno: {record.jmeno} {record.prijmeni}");
-                        Console.WriteLine("Chceš více informací? y/n");
-                        string info = Console.ReadLine()!;
-                        if (info == "y" || info == "Y")
+                        DataRecord record = DataRecord.FromCsv(line);
+                        if (record.Id == id)
                         {
-                            Console.WriteLine($"Věk: {record.vek}");
-                        }
-                        else
-                        {
-                            Console.WriteLine("Program ukončen");
-                            return;
+                            idFound = true;
+                            Console.WriteLine($"ID nalezeno: {record.jmeno} {record.prijmeni}");
+                            Console.WriteLine("Chceš více informací? y/n");
+                            string info = Console.ReadLine()!;
+                            if (info == "y" || info == "Y")
+                            {
+                                Console.WriteLine($"Věk: {record.vek}");
+                                Console.WriteLine($"Bydliště: {record.bydliste}");
+                            }
+                            else
+                            {
+                                Console.WriteLine("Oka");
+                            }
+                            break;
                         }
                     }
+
+                    if (!idFound)
+                    {
+                        Console.WriteLine("ID nebylo nalezeno.");
+                    }
                 }
-                Console.WriteLine("ID nebylo nalezeno.");
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine($"Vyskytla se chyba: {ex.Message}");
+                catch (Exception ex)
+                {
+                    Console.WriteLine($"Vyskytla se chyba: {ex.Message}");
+                }
             }
         }
     }

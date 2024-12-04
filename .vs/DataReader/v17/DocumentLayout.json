@@ -36,9 +36,10 @@
               "RelativeDocumentMoniker": "stats.txt",
               "ToolTip": "C:\\Users\\atlan\\source\\repos\\DataReader\\stats.txt",
               "RelativeToolTip": "stats.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2024-11-29T10:39:22.483Z"
+              "WhenOpened": "2024-11-29T10:39:22.483Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -48,7 +49,7 @@
               "RelativeDocumentMoniker": "App.cs",
               "ToolTip": "C:\\Users\\atlan\\source\\repos\\DataReader\\App.cs",
               "RelativeToolTip": "App.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-29T10:39:05.625Z",
               "EditorCaption": ""
